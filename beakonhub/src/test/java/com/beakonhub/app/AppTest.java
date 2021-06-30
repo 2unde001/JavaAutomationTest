@@ -4,7 +4,12 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
+
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.List;
+
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -20,6 +25,9 @@ public class AppTest
      */
     @Test
     public void driverManagerSetUp() throws InterruptedException {
+
+        Integer num = new Integer(3);
+        num.byteValue();
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.navigate().to("https://github.com/");
@@ -41,8 +49,39 @@ public class AppTest
         Thread.sleep(3);
 
         // Verify free app page is open
-        WebElement appPage = driver.findElement(By.cssSelector("h1[class='h2']"));
-        System.out.print(appPage.getText());
+        //WebElement appPage = driver.findElement(By.cssSelector("h1[class='h2']"));
+        //System.out.print(appPage.getText());
+
+        // Find all elements on this page and print them out
+        List<WebElement> caterogiesElement = driver.findElements(By.tagName("li"));
+        for (WebElement element : caterogiesElement){
+            System.out.print(element.getText() + "\n");
+        }
+
+        // Get an element from the list using text method
+
+
+        List<WebElement> elementByText = driver.findElements(By.tagName("li"));
+        for (WebElement element : elementByText){
+            if(element.getText().contains("API management")){
+
+                element.click();
+                break;
+            }
+        }
+
+        // Validate click on the individual element under category is highlighted
+        WebElement highlight = driver.findElement(By.cssSelector("a[class='filter-item d-flex flex-justify-between flex-items-center py-2 mb-0 selected']"));
+        assertTrue("API management is enable", highlight.isEnabled());
+
+        // Get element by index from the list
+
+        //List<WebElement> elementByIndex = driver.findElements(By.tagName("li"));
+        //System.out.print(elementByIndex.get(3));
+
+
+
+
 
 
 

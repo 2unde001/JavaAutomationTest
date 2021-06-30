@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed666bf-e5dd-419e-b3c3-41c381e18076" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/DomWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/webdriverWait.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/firstTest.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.beakonhub.app.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.beakonhub.app.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.beakonhub.app.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.beakonhub.app.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/beakonhub/app/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/beakonhub/app/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/drivers" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -59,7 +53,23 @@
       <recent name="C:\Users\44740\Desktop\MvnProject\beakonhub\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DomWait">
+  <component name="RunManager" selected="JUnit.AppTest.driverManagerSetUp">
+    <configuration name="AppTest.driverManagerSetUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beakonhub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beakonhub.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beakonhub.app" />
+      <option name="MAIN_CLASS_NAME" value="com.beakonhub.app.AppTest" />
+      <option name="METHOD_NAME" value="driverManagerSetUp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeakonhubTest" type="JUnit" factoryName="JUnit">
       <module name="beakonhub" />
       <option name="PACKAGE_NAME" value="com.beakonhub.app" />
@@ -87,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.driverManagerSetUp" />
         <item itemvalue="JUnit.DomWait" />
       </list>
     </recent_temporary>
