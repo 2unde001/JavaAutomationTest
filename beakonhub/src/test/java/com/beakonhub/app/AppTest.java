@@ -25,9 +25,7 @@ public class AppTest
      */
     @Test
     public void driverManagerSetUp() throws InterruptedException {
-
-        Integer num = new Integer(3);
-        num.byteValue();
+;
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.navigate().to("https://github.com/");

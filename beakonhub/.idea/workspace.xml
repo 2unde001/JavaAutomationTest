@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed666bf-e5dd-419e-b3c3-41c381e18076" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jdsport/app/test/home/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/beakonhub/app/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/beakonhub/app/AppTest.class" afterDir="false" />
@@ -45,6 +47,10 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jdsport.selenium" />
+      <recent name="com.jdsport.app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\44740\Desktop\MvnProject\beakonhub\drivers" />
     </key>
@@ -53,7 +59,7 @@
       <recent name="C:\Users\44740\Desktop\MvnProject\beakonhub\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.driverManagerSetUp">
+  <component name="RunManager" selected="JUnit.HomePageTest">
     <configuration name="AppTest.driverManagerSetUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="beakonhub" />
       <extension name="coverage">
@@ -95,8 +101,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomePageTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdsport.app.test.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jdsport.app.test.home" />
+      <option name="MAIN_CLASS_NAME" value="com.jdsport.app.test.home.HomePageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beakonhub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdsport.app.test.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jdsport.app.test.home" />
+      <option name="MAIN_CLASS_NAME" value="com.jdsport.app.test.home.HomePageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HomePageTest" />
+        <item itemvalue="JUnit.HomePageTest (1)" />
         <item itemvalue="JUnit.AppTest.driverManagerSetUp" />
         <item itemvalue="JUnit.DomWait" />
       </list>
