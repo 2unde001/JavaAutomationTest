@@ -1,0 +1,4 @@
+com\beakonhub\app\AppTest.class
+com\jdsport\app\test\home\HomePageTest.class
+com\jdsport\app\test\home\hook\Hooks.class
+com\beakonhub\app\DomWait.class

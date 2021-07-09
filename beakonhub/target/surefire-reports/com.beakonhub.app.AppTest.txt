@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.beakonhub.app.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.512 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.39 s - in com.beakonhub.app.AppTest

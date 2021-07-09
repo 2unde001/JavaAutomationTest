@@ -5,9 +5,13 @@ import org.junit.Test;
 
 public class HomePageTest extends Hooks
 {
+
+    private JDSportHomePage homePage;
+
     @Test
-    public void homePageTest()
+    public void hoverOverMensAndSelectShort()
     {
-        JDSportHomePage.open("https://www.jdsports.co.uk/");
+        homePage = new JDSportHomePage();
+        homePage.navMenu().MensCategory();
     }
 }
