@@ -1,4 +1,9 @@
-package com.jdsport.selenium;
+package com.jdsport.selenium.home;
+
+import com.jdsport.selenium.driver.JDSportDriver;
+import com.jdsport.selenium.menu.men.JDSportMenClothingShorts;
+import com.jdsport.selenium.menu.men.JDSportNavMenu;
+import com.jdsport.selenium.JDSportVerification;
 
 public class JDSportHomePage
 {
@@ -19,8 +24,9 @@ public class JDSportHomePage
         return new JDSportHomePage();
     }
 
-    public void MensCategory()
+    public JDSportMenClothingShorts MensCategory()
     {
         JDSportNavMenu.navigateTo();
+        return new JDSportMenClothingShorts();
     }
 }

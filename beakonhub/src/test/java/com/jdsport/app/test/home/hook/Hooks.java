@@ -1,6 +1,5 @@
 package com.jdsport.app.test.home.hook;
-import com.jdsport.selenium.JDSportDriver;
-import com.jdsport.selenium.JDSportHomePage;
+import com.jdsport.selenium.driver.JDSportDriver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;

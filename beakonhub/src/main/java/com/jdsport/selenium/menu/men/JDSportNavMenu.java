@@ -1,4 +1,4 @@
-package com.jdsport.selenium;
+package com.jdsport.selenium.menu.men;
 
 import com.jdsport.selenium.homePageElements.JDSportHomePageElements;
 

@@ -1,5 +1,5 @@
 package com.jdsport.selenium.homePageElements;
-import com.jdsport.selenium.JDSportDriver;
+import com.jdsport.selenium.driver.JDSportDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

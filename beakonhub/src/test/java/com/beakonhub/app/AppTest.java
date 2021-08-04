@@ -1,5 +1,6 @@
 package com.beakonhub.app;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,6 +24,7 @@ public class AppTest
      * Set up WebDriverManager launch and manager driver in this instance chromedriver.
      * Navigate to github to verify WebDriver set up
      */
+    @Ignore
     @Test
     public void driverManagerSetUp() throws InterruptedException {
 ;
