@@ -4,58 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed666bf-e5dd-419e-b3c3-41c381e18076" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/category/men/shorts/JDSportMenClothingPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/productDetails/JDSportProductDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_M9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_toolchain_3_0_alpha_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_surefire_plugin_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_artifact_transfer_0_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_common_artifact_filters_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_maven_surefire_common_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_booter_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_extensions_api_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_extensions_spi_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_logger_api_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_shared_utils_3_0_0_M4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_1_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beakonhub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/beakonhub.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/JDSportDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/driver/JDSportDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/JDSportHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/home/JDSportHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/JDSportNavMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/menu/men/JDSportNavMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/JDSportVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/JDSportVerification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/homePageElements/JDSportHomePageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/homePageElements/JDSportHomePageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/DomWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/beakonhub/app/DomWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jdsport/app/test/home/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jdsport/app/test/home/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jdsport/app/test/home/hook/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jdsport/app/test/home/hook/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/JDSportDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/JDSportHomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/JDSportNavMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/JDSportVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/JDSportVerification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/homePageElements/JDSportHomePageElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/homePageElements/JDSportHomePageElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.beakonhub.app.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.beakonhub.app.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.jdsport.app.test.home.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.jdsport.app.test.home.HomePageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.beakonhub.app.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.beakonhub.app.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.jdsport.app.test.home.HomePageTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.jdsport.app.test.home.HomePageTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/beakonhub/app/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/beakonhub/app/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/beakonhub/app/DomWait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/beakonhub/app/DomWait.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jdsport/app/test/home/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jdsport/app/test/home/HomePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jdsport/app/test/home/hook/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jdsport/app/test/home/hook/Hooks.class" afterDir="false" />
-    </list>
+    <list default="true" id="8ed666bf-e5dd-419e-b3c3-41c381e18076" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
