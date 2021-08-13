@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed666bf-e5dd-419e-b3c3-41c381e18076" name="Default Changelist" comment="" />
+    <list default="true" id="8ed666bf-e5dd-419e-b3c3-41c381e18076" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BeakonhubAPI/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BeakonhubAPI/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BeakonhubAPI/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BeakonhubAPI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BeakonhubAPI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BeakonhubAPI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/productListing/JDSportProductListingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/productListing/JDSportProductLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/productListing/productListElements/JDSportProductsListElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/JDSportVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/JDSportVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/category/men/shorts/JDSportMenClothingPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/category/men/shorts/JDSportMenClothingPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/driver/JDSportDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/driver/JDSportDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/home/JDSportHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/home/JDSportHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/homePageElements/JDSportHomePageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/homePageElements/JDSportHomePageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/menu/men/JDSportMenClothingShorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/productListing/mensShorts/JDSportMenShortsListingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/menu/men/JDSportNavMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/menu/men/JDSportNavMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/productDetails/JDSportProductDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdsport/selenium/productDetails/JDSportProductDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jdsport/app/test/home/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jdsport/app/test/home/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jdsport/app/test/home/hook/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jdsport/app/test/home/hook/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/men/shortTest/JDSportMenShortsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/men/shortTest/JDSportMenShortsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/JDSportVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/JDSportVerification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/category/men/shorts/JDSportMenClothingPageElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/category/men/shorts/JDSportMenClothingPageElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/driver/JDSportDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/driver/JDSportDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/home/JDSportHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/home/JDSportHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/homePageElements/JDSportHomePageElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/homePageElements/JDSportHomePageElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/menu/men/JDSportMenClothingShorts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/menu/men/JDSportNavMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jdsport/selenium/menu/men/JDSportNavMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jdsport/app/test/home/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jdsport/app/test/home/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/men/shortTest/JDSportMenShortsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/men/shortTest/JDSportMenShortsTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,10 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jdsport.selenium.productListing.productListElements" />
+      <recent name="com.jdsport.selenium.productListing" />
       <recent name="com.jdsport.selenium.productDetails" />
       <recent name="com.jdsport.selenium.category.men.shorts" />
       <recent name="com.jdsport.selenium" />
-      <recent name="com.jdsport.app" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\44740\Desktop\MvnProject\beakonhub\drivers" />
@@ -56,22 +88,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.HomePageTest">
-    <configuration name="AppTest.driverManagerSetUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="beakonhub" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.beakonhub.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.beakonhub.app" />
-      <option name="MAIN_CLASS_NAME" value="com.beakonhub.app.AppTest" />
-      <option name="METHOD_NAME" value="driverManagerSetUp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BeakonhubTest" type="JUnit" factoryName="JUnit">
       <module name="beakonhub" />
       <option name="PACKAGE_NAME" value="com.beakonhub.app" />
@@ -143,13 +159,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JDSportMenShortsTest.selectFirstShortFromTheList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beakonhub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.men.shortTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.men.shortTest" />
+      <option name="MAIN_CLASS_NAME" value="com.men.shortTest.JDSportMenShortsTest" />
+      <option name="METHOD_NAME" value="selectFirstShortFromTheList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HomePageTest" />
+        <item itemvalue="JUnit.JDSportMenShortsTest.selectFirstShortFromTheList" />
         <item itemvalue="JUnit.HomePageTest.hoverOverMensAndSelectShort" />
         <item itemvalue="JUnit.HomePageTest.homePageTest" />
         <item itemvalue="JUnit.HomePageTest (1)" />
-        <item itemvalue="JUnit.AppTest.driverManagerSetUp" />
       </list>
     </recent_temporary>
   </component>
@@ -182,15 +214,6 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jdsport/selenium/menu/men/JDSportNavMenu.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="appPage" language="JAVA" />

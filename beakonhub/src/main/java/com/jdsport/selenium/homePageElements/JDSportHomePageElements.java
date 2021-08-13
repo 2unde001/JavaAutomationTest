@@ -3,28 +3,33 @@ import com.jdsport.selenium.driver.JDSportDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class JDSportHomePageElements
+import java.util.List;
+
+public class JDSportHomePageElements extends JDSportDriver
 {
+
     public static boolean isJdSportLargeLogo()
     {
-        return JDSportDriver.driver.findElement(By.
+        return driver.findElement(By.
                 className("logo-large")).isDisplayed();
     }
 
     public static void acceptCookies()
     {
-        JDSportDriver.driver.
-                findElement(By.cssSelector("button[class='btn btn-level1 accept-all-cookies']"))
+        driver.findElement(By.cssSelector("button[class='btn btn-level1 accept-all-cookies']"))
                 .click();
     }
 
     public static void hoverOverMenCategory()
     {
-        WebElement menCategory = JDSportDriver.driver.findElement(By.cssSelector("a[href='/page/mens/']"));
-        WebElement menCategoryShorts = JDSportDriver.driver.findElement(By.cssSelector("a[href='/men/mens-clothing/shorts/']"));
+        WebElement menCategory = driver.findElement(By.cssSelector("a[href='/page/mens/']"));
+        hoveOverElement(menCategory);
 
-        JDSportDriver.hoveOverElement(menCategory);
-        JDSportDriver.hoveOverElementAndClick((menCategoryShorts));
+        WebElement menCategoryShorts = driver.findElement(By.cssSelector("a[href=\"/men/mens-clothing/shorts/\"]"));
+        menCategoryShorts.click();
+
+
+       // hoveOverElementAndClick((menCategoryShorts));
 
     }
 

@@ -19,7 +19,6 @@ public class Hooks
     {
         JDSportDriver.open(JD_SPORT_URL);
 
-
     }
 
     @After

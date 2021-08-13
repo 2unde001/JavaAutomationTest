@@ -4,8 +4,6 @@ import com.jdsport.selenium.homePageElements.JDSportHomePageElements;
 
 public class JDSportVerification
 {
-
-
     public static boolean isLageLogo()
     {
         return JDSportHomePageElements.isJdSportLargeLogo();
@@ -18,6 +16,7 @@ public class JDSportVerification
 
     public static void menShortCategory(String title)
     {
+
         JDSportMenClothingPageElements.isDisplayed(title);
     }
 }

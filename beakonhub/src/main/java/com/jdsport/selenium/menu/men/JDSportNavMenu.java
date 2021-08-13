@@ -4,10 +4,8 @@ import com.jdsport.selenium.homePageElements.JDSportHomePageElements;
 
 public class JDSportNavMenu
 {
-    public static void navigateTo()
+    public static void clickNavMenu()
     {
-//        JDSportHomePageElements jdSportHomePageElements = new JDSportHomePageElements();
-//        jdSportHomePageElements.hoverOverMenCategory();
         JDSportHomePageElements.hoverOverMenCategory();
 
 

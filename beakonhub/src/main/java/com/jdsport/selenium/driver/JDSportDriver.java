@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
@@ -37,9 +39,10 @@ public class JDSportDriver
     }
 
 
-    public static void hoveOverElementAndClick(WebElement clickSubMenu)
+    public static void waitForPageTitle(int waitTime, String elementString)
     {
-        Actions actions = new Actions(JDSportDriver.driver);
-        actions.moveToElement(clickSubMenu).click().build().perform();
+        WebDriverWait wait = new WebDriverWait(driver, waitTime);
+        wait.until(ExpectedConditions.textToBe(By.cssSelector("fhTitle"), elementString));
+
     }
 }

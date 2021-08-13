@@ -1,18 +1,21 @@
 package com.men.shortTest;
 
-import com.jdsport.selenium.menu.men.JDSportMenClothingShorts;
+import com.jdsport.selenium.productListing.mensShorts.JDSportMenShortsListingPage;
 import org.junit.Test;
+import org.junit.runners.Parameterized;
 
 public class JDSportMenShortsTest
 {
-    JDSportMenClothingShorts menClothingShorts;
+    JDSportMenShortsListingPage menClothingShorts;
 
     @Test
+
     public void selectFirstShortFromTheList()
     {
-        menClothingShorts = new JDSportMenClothingShorts();
-
+        menClothingShorts = new JDSportMenShortsListingPage();
         menClothingShorts.mainProductList().firstItemOnTheList();
+
+        //Assert.assertTrue("", menClothingShorts.mainProductList().firstItemOnTheList(), );
 
 
     }
