@@ -3,7 +3,6 @@ package driverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -21,15 +20,9 @@ public class BrowserManager
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-    public static void navigateToWeBuyAnyCar() throws InterruptedException {
-        driver.get(CAR_TAX_URL);
-        //isCookies();
-    }
-
-    private static void isCookies()
+    public static void navigateToWeBuyAnyCar()
     {
-        driver.findElement(By.cssSelector("button[id*='accept']")).click();
-
+        driver.get(CAR_TAX_URL);
     }
 
     public static void waitForElementVisibility(int waitTime, String elementLocator)
@@ -47,6 +40,6 @@ public class BrowserManager
     public static void pageContains(int waitTime, String pageTitle)
     {
         new WebDriverWait(driver,Duration.ofSeconds(waitTime))
-                .until(ExpectedConditions.titleIs(pageTitle));
+                .until(ExpectedConditions.titleContains(pageTitle));
     }
 }

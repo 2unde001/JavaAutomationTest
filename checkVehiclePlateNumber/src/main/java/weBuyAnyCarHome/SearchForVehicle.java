@@ -12,7 +12,9 @@ public class SearchForVehicle
 {
     private static final int WAIT_TIME = 10;
     private static final String ELEMENT_LOCATOR = "vrm-input";
-    private static final String PAGE_TITLE = "Car Tax Check Car History Check";
+    private static final String PAGE_HEADER = "Order Summary" ;
+    private static final String TITLE_CONTAINS = "";
+    private static final String NAV_MENU = "userMenu";
     private String plateNumber;
     private String dbPlateNumbers;
     private VehicleNumbersData vehicleNumbersData;
@@ -60,25 +62,28 @@ public class SearchForVehicle
 
     }
 
-    public boolean getOrderSummary(String regNumber, String make) throws FileNotFoundException, InterruptedException {
-        //BrowserManager.pageContains(WAIT_TIME,PAGE_TITLE.trim());
-        Thread.sleep(5);
+    public boolean isDisplayedVehicleDetails(String reg, String make, String model, String year) throws FileNotFoundException, InterruptedException {
+
+        Thread.sleep(10);
+
         List<WebElement> orderSummary = driver.findElements(By.className("jsx-1162687698"));
 
         for (WebElement vehicleDetail:orderSummary)
         {
             vehicleNumbersData = new VehicleNumbersData();
-            if (vehicleDetail.getText().contains(vehicleNumbersData.enterVehiclePlateNumber(regNumber,make)))
-           {
-                System.out.println("This contents are in the database");
-                break;
-           }
+
+            String allText = vehicleNumbersData.isMatch("\\[A-Za-z\\d,]",vehicleDetail.getText());
+
+            if (allText.contains(reg) && allText.contains(make) && allText.contains(model) && allText.contains(year))
+            {
+
+                System.out.println(allText);
+            }
+
+
 
         }
         return true;
-
-
-
     }
 
 

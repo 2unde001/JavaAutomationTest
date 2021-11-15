@@ -24,16 +24,32 @@ public class VehicleNumbersData
 
     }
 
+    public String isMatch(String theRegex, String string2Check)
+    {
+        Pattern checkRegex = Pattern.compile(theRegex);
+        Matcher regexMatcher = checkRegex.matcher(string2Check);
+
+        while (regexMatcher.find())
+        {
+            if (regexMatcher.group().length() != 0)
+            {
+                regexMatcher.group();
+            }
+        }
+
+        return string2Check;
+    }
+
     private String fileOutPut(String result, String plateNumber) throws FileNotFoundException
     {
-        FileReader fileReader = new FileReader("src/main/java/carData/car_output.txt");
+        FileReader fileReader = new FileReader("src/main/java/carData/file/car_output.txt");
 
         try {
             BufferedReader reader = new BufferedReader(fileReader);
             String vehicleInfo = reader.readLine();
 
             while (vehicleInfo != null) {
-                System.out.println(vehicleInfo);
+//                System.out.println(vehicleInfo);
                 vehicleInfo = reader.readLine();
             }
         } catch (FileNotFoundException e) {
@@ -47,7 +63,7 @@ public class VehicleNumbersData
         if (result.contains(plateNumber))
         {
 
-            System.out.println(plateNumber);
+            return plateNumber;
         }
         return result;
     }
