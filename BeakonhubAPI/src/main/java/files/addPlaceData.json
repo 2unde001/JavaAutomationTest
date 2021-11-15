@@ -1,0 +1,16 @@
+{
+  "location": {
+    "lat": -38.383494,
+    "lng": 33.427362
+  },
+  "accuracy": 50,
+  "name": "Tunde Inc",
+  "phone_number": "(+44) 145 445 222",
+  "address": "427, Manchester Road, Manchester",
+  "types": [
+    "shoe park",
+    "shop"
+  ],
+  "website": "http://google.com",
+  "language": "English-EN"
+}
