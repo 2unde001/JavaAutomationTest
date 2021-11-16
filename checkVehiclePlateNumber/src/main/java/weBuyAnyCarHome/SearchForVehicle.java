@@ -12,9 +12,6 @@ public class SearchForVehicle
 {
     private static final int WAIT_TIME = 10;
     private static final String ELEMENT_LOCATOR = "vrm-input";
-    private static final String PAGE_HEADER = "Order Summary" ;
-    private static final String TITLE_CONTAINS = "";
-    private static final String NAV_MENU = "userMenu";
     private String plateNumber;
     private String dbPlateNumbers;
     private VehicleNumbersData vehicleNumbersData;
@@ -62,7 +59,7 @@ public class SearchForVehicle
 
     }
 
-    public boolean isDisplayedVehicleDetails(String reg, String make, String model, String year) throws FileNotFoundException, InterruptedException {
+    public String isDisplayedVehicleDetails(String reg) throws FileNotFoundException, InterruptedException {
 
         Thread.sleep(10);
 
@@ -70,27 +67,15 @@ public class SearchForVehicle
 
         for (WebElement vehicleDetail:orderSummary)
         {
-            vehicleNumbersData = new VehicleNumbersData();
+            String allText = vehicleDetail.getText();
+            if (allText != null){
+                vehicleNumbersData = new VehicleNumbersData();
+                vehicleNumbersData.enterVehiclePlateNumber(allText, reg);
 
-            String allText = vehicleNumbersData.isMatch("\\[A-Za-z\\d,]",vehicleDetail.getText());
-
-            if (allText.contains(reg) && allText.contains(make) && allText.contains(model) && allText.contains(year))
-            {
-
-                System.out.println(allText);
+                System.out.println(reg);
+                break;
             }
-
-
-
         }
-        return true;
-    }
-
-
-    public boolean compareToDataBase()
-    {
-        vehicleNumbersData = new VehicleNumbersData();
-        vehicleNumbersData.patternMatcher(dbPlateNumbers,plateNumber);
-        return true;
+        return reg;
     }
 }

@@ -37,9 +37,5 @@ public class BrowserManager
         driver.quit();
     }
 
-    public static void pageContains(int waitTime, String pageTitle)
-    {
-        new WebDriverWait(driver,Duration.ofSeconds(waitTime))
-                .until(ExpectedConditions.titleContains(pageTitle));
-    }
+
 }

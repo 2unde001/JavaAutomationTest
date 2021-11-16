@@ -15,10 +15,10 @@ public class CheckCarValueTest extends Hooks
 
         search.matchDataBase("KT17DLX,DN09HRM,SG18HTN").withPlateNumber("SG18HTN").checkVehicleHistory();
 
-        Assertions.assertTrue(search.isDisplayedVehicleDetails("SG18HTN", "Volkswagen","White","2018"));
-
-
-
+        Assertions.assertEquals(search.isDisplayedVehicleDetails("SG18HTN"), "SG18HTN");
+        Assertions.assertEquals(search.isDisplayedVehicleDetails("Volkswagen"), "Volkswagen");
+        Assertions.assertEquals(search.isDisplayedVehicleDetails("White"), "White");
+        Assertions.assertEquals(search.isDisplayedVehicleDetails("2018"), "2018");
 
     }
 

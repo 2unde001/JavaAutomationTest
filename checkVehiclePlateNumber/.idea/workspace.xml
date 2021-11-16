@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823c0042-8254-4c2b-8b5c-4f191f70ffaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BeakonhubAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BeakonhubAPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/carData/VehicleNumbersData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/carData/VehicleNumbersData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/carData/car_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/carData/file/car_output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/driverManager/BrowserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverManager/BrowserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicleDetails/VehicleDetails.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/weBuyAnyCarHome/SearchForVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weBuyAnyCarHome/SearchForVehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CheckCarValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckCarValueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/carData/VehicleNumbersData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/carData/VehicleNumbersData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driverManager/BrowserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driverManager/BrowserManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vehicleDetails/VehicleDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/weBuyAnyCarHome/SearchForVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weBuyAnyCarHome/SearchForVehicle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/CheckCarValueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckCarValueTest.class" afterDir="false" />
     </list>
